@@ -1,0 +1,51 @@
+.seccion1{
+	text-align: center;
+	max-width: 300px;
+	margin:auto;
+}
+.seccion2{
+	max-width: 785px;
+	margin:auto;
+}
+#random,#eleccion,#piedra,#papel,#tijera{
+	font-size: 150px;
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+	background: gray;
+	margin:20px;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+.tres{
+	display: flex;
+}
+
+#piedra{
+	background-image: url("../piedra.png");
+}
+#tijera{
+	background-image: url("../tijera.png");	
+}
+#papel{
+	background-image: url("../papel.png");	
+}
+
+img{
+	max-width: 200px;
+}
+
+#random:active,#eleccion:active,#piedra:active,#papel:active,#tijera:active{
+	background: blue;
+}
+h2{
+	font-size: 30px;
+	font-family: calibri;
+	text-align: center;
+	color:gray;
+}
+h2:hover{
+	color:blue;
+}
